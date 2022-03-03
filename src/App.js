@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React from "react";
 import PropTypes from 'prop-types';
 
@@ -50,14 +51,39 @@ function App() {
       {foodLike.map(dish => (
         <Food key={dish.id} name={dish.name} picture={dish.image} rating={dish.rating} />
       ))}          
+=======
+import logo from './logo.svg';
+import './App.css';
+
+function App() {
+  return (
+    <div className="App">
+      <header className="App-header">
+        <img src={logo} className="App-logo" alt="logo" />
+        <p>
+          Edit <code>src/App.js</code> and save to reload.
+        </p>
+        <a
+          className="App-link"
+          href="https://reactjs.org"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn React
+        </a>
+      </header>
+>>>>>>> 4b25961011a2642bb00d71d1331ecaf52a9a3a3d
     </div>
   );
 }
 
+<<<<<<< HEAD
 Food.propTypes = {
   name: PropTypes.string.isRequired,
   picture: PropTypes.string.isRequired,
   rating: PropTypes.number.isRequired,
 };
 
+=======
+>>>>>>> 4b25961011a2642bb00d71d1331ecaf52a9a3a3d
 export default App;
